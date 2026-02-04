@@ -1,28 +1,16 @@
-# Team-Directory-
-In this project two of major highlights are - Backend: ColdFusion API with SQL database, returning employee data as JSON - Frontend: React app with vite fetching data and displaying it in a table with search functionality
-# Team Directory
+# React + Vite
 
-A responsive **Team Directory web application** that displays team members along with their roles and basic details.  
-This project demonstrates my understanding of **React components, Vite setup, and core HTML/CSS structure**.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-##  Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- Display a list of team members
-- Clean and simple UI
-- Component-based structure
-- Responsive layout
-- Easy to extend with search or filters
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Technologies Used
+## Expanding the ESLint configuration
 
-- **React** – for building UI components  
-- **Vite** – for fast development and bundling  
-- **HTML5** – page structure  
-- **CSS3** – styling and layout  
-- **JavaScript (ES6)** – logic and interactivity  
-
----
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
