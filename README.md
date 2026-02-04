@@ -26,5 +26,3 @@ This project demonstrates my understanding of **React components, Vite setup, an
 - **JavaScript (ES6)** – logic and interactivity  
 
 ---
-
-## 📁 Project Structure
